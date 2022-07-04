@@ -46,22 +46,26 @@
             <div class="form-div">
                 <label for="nombres" class="form-label">Nombres</label>
                 <!-- Micro-Desafío 3 required - Clase 15 -->
-                <input type="text" name="nombres" id="nombres" required>
+                <input type="text" name="nombres" id="nombres" minLength="2" required>
+                <span class="feedback"></span>
             </div>
             <div class="form-div">
                 <label for="apellidos" class="form-label">Apellidos</label>
                 <!-- Micro-Desafío 3 required - Clase 15 -->
-                <input type="text" name="apellidos" required>
+                <input type="text" name="apellidos" minLength="2" required>
+                <span class="feedback"></span>
             </div>
             <div class="form-div">
                 <label for="nombreUsuario" class="form-label">Nombre de usuario/a</label>
                 <!-- Micro-Desafío 3 required - Clase 15 -->
                 <input type="text" name="nombreUsuario" id="nombreUsuario" required>
+                <span class="feedback"></span>
             </div>
             <div class="form-div">
                 <label for="email" class="form-label">Email</label>
                 <!-- Micro-Desafío 3 required - Clase 15 -->
                 <input type="email" name="email" id="email" required>
+                <span class="feedback"></span>
             </div>   
             <div class="form-div">
                 <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento</label>
@@ -98,11 +102,13 @@
                 <label for="password" class="form-label">Contraseña</label>
                 <!-- Micro-Desafío 3 required - Clase 15 -->
                 <input type="password" name="password" id="password" required>
+                <span class="feedback"></span>
             </div> 
             <div class="form-div">
                 <label for="confirmPassword" class="form-label">Confirmar Contraseña</label>
                 <!-- Micro-Desafío 3 required - Clase 15 -->
                 <input type="password" name="confirmPassword" id="confirmPassword" required>
+                <span class="feedback"></span>
             </div>
             <div class="form-buttons">
                 <button type="submit" class="submit-button">Enviar</button>
